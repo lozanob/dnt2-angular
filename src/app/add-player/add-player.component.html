@@ -1,0 +1,9 @@
+<!-- Ajout d'un joueur -->
+<div>
+  Nom <input type="text" [(ngModel)]="newPlayer.firstname">
+  Prénom <input type="text" [(ngModel)]="newPlayer.lastname">
+  Numéro <input type="text" [(ngModel)]="newPlayer.num">
+  <button class="btn btn-default" (click)="savePlayer()">Enregistrer</button>
+</div>
+
+<p>Information en provenance du parent: {{example}}</p>
